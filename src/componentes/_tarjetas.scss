@@ -1,0 +1,35 @@
+#articulos section{
+    display: none;
+}
+
+#articulos section:target{
+    display: inline-block;
+}
+
+#tarjeta{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    background-color: $Amarillo;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.title{
+    font-family: $titulo;
+    font-size: 400%;
+    font-weight: bold;
+    color: $Azul;
+}
+
+img{
+    width: 500px;
+    box-shadow: -30px -30px white;
+}
+
+p{
+    width: 70%;
+    font-family: $texto;
+    font-size: 150%;
+}
+

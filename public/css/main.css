@@ -1,1 +1,133 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.botonArriba {
+  padding: 1%;
+  margin: 1%;
+  text-decoration: none;
+  color: white;
+  font-family: "Belleza", sans-serif;
+  font-size: 150%;
+}
+
+.botonArriba:hover {
+  background-color: #bc3a41;
+}
+
+.botonesTar {
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 15%;
+}
+
+.opt {
+  padding: 2%;
+  margin: 1%;
+  background-color: #eb2030;
+  text-decoration: none;
+  color: white;
+  font-family: "Belleza", sans-serif;
+  font-size: 130%;
+}
+
+#articulos section {
+  display: none;
+}
+
+#articulos section:target {
+  display: inline-block;
+}
+
+#tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10%;
+  background-color: #ebce4b;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.title {
+  font-family: "Judson", serif;
+  font-size: 400%;
+  font-weight: bold;
+  color: #165deb;
+}
+
+img {
+  width: 500px;
+  -webkit-box-shadow: -30px -30px white;
+          box-shadow: -30px -30px white;
+}
+
+p {
+  width: 70%;
+  font-family: "Belleza", sans-serif;
+  font-size: 150%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  padding: 1%;
+  background-color: #eb2030;
+}
+
+.logoArriba {
+  font-family: "Judson", serif;
+  font-weight: bold;
+  font-size: 200%;
+  text-decoration: none;
+  color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.logoArriba:hover {
+  color: #165deb;
+}
+
+main {
+  background: url(../public/resources/banner.jpg);
+  padding: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Judson", serif;
+  font-size: 150%;
+}
+
+footer {
+  background-color: #165deb;
+  padding: 2%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */

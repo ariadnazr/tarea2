@@ -1,0 +1,30 @@
+//botones !!
+
+.botonArriba{
+    padding: 1%;
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-family: $texto;
+    font-size: 150%;
+
+    &:hover{
+        background-color:#bc3a41 ;
+    }
+}
+
+.botonesTar{
+    padding: 1%;
+    @include row;
+    padding-left: 15%;
+}
+
+.opt{
+    padding: 2%;
+    margin: 1%;
+    background-color: $Rojo;
+    text-decoration: none;
+    color: white;
+    font-family: $texto;
+    font-size: 130%;
+}

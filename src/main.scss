@@ -1,4 +1,65 @@
 //Declaracion de variables
+@import"config/variables"; 
+
+
 //Estructuras para reutilizar codigo
+@mixin row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column
+}
 //Funciones
 //Definicion de estilos
+@import"componentes/botones";
+@import"componentes/tarjetas";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    padding: 1%;
+    background-color: $Rojo;
+    
+}
+
+.logoArriba{
+    font-family: $titulo;
+    font-weight: bold;
+    font-size: 200%;
+    text-decoration: none;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    &:hover{
+        color:$Azul;
+    }
+}
+
+main{
+    background: url(../public/resources/banner.jpg);
+    padding: 15%;
+    @include column;
+    justify-content: center;
+    align-items: center;
+    font-family: $titulo;
+    font-size: 150%;
+
+        
+}
+
+footer{
+    background-color: $Azul;
+    padding: 2%;
+    color: $Blanco;
+    @include column;
+}
+
+
+
